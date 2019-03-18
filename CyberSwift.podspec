@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
 
     spec.name               =   "CyberSwift"
-    spec.platform           =   :ios, "9.3"
-    spec.swift_version      =   "4.0"
+    spec.platform           =   :ios, "10.0"
+    spec.swift_version      =   "4.2"
 
     spec.summary            =   "Swift framework for Commun.golos.io"
     spec.homepage           =   "https://cyberway.golos.io/"
