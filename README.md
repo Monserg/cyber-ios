@@ -1,5 +1,5 @@
 # CyberSwift
-<img align="right" src='https://github.com/GolosChain/GoloSwift/blob/master/GoloSwift/Resources/Media.xcassets/icon-itunes.imageset/icon-itunes%402x.png' width='128' height='128'/>
+<img align="right" src='https://github.com/Monserg/cyber-ios/blob/master/CyberSwift/Resources/Media.xcassets/Commun-logo.imageset/Commun-logo%403x.png' width='932' height='260'/>
 
 Our framework is written in Swift 4 and is designed to work with the blockchain [Commun](https://cyberway.golos.io/)
 
