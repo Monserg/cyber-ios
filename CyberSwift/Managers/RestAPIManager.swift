@@ -8,6 +8,18 @@
 import Foundation
 
 public class RestAPIManager {
+    // MARK: - Properties
+    public static let instance = RestAPIManager()
+
+
+    // MARK: - Class Initialization
+    private init() {}
+    
+    deinit {
+        Logger.log(message: "Success", event: .severe)
+    }
+    
+    
     // MARK: - Class Functions
     
     /// API `content.getProfile`
