@@ -22,11 +22,11 @@ public struct Config {
     /// Websocket
     static public var webSocket                         =   WebSocket(url: URL(string: "ws://116.203.98.241:8080")!)
 
-    static var currentUser                              =   (nickName: Config.accountNickDestroyer2k, activeKey: Config.activeKeyDestroyer2k)
-    static var currentVoter                             =   (nickName: Config.accountNickTest, activeKey: Config.activeKeyTest)
-    static var currentAuthor                            =   (nickName: Config.accountNickTest, activeKey: Config.activeKeyTest)
+    public static var currentUser                       =   (nickName: Config.accountNickDestroyer2k, activeKey: Config.activeKeyDestroyer2k)
+    public static var currentVoter                      =   (nickName: Config.accountNickTest, activeKey: Config.activeKeyTest)
+    public static var currentAuthor                     =   (nickName: Config.accountNickTest, activeKey: Config.activeKeyTest)
 
-    // Golos Test values
+    // Accounts test values
     static let accountNickDestroyer2k: String           =   "destroyer2k"
     static let activeKeyDestroyer2k: String             =   "5JagnCwCrB2sWZw6zCvaBw51ifoQuNaKNsDovuGz96wU3tUw7hJ"
     static let postingKeyDestroyer2k: String            =   "5JjQWZmWj36xbVdcX96gjMs5BRip7TPPCNFFnm19TPEviqnG5Ke"
