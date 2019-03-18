@@ -9,9 +9,9 @@
 import Starscream
 import Foundation
 
-struct Config {
+public struct Config {
     /// Pagination
-    static let paginationLimit: Int8 = 20
+    public static let paginationLimit: Int8 = 20
     
     static let blocksBehind: Int = 3
     static let expireSeconds: Double = 30.0
@@ -49,7 +49,7 @@ struct Config {
 
         
     /// Check network connection
-    static var isNetworkAvailable: Bool {
+    public static var isNetworkAvailable: Bool {
         set { }
         
         get {

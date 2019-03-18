@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03329A709F0DA60180F91DBB /* Pods_CyberSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED672114DF191DC66860EA /* Pods_CyberSwift.framework */; };
+		B1677C66223F9BD7005FB286 /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1677C65223F9BD7005FB286 /* RestAPIManager.swift */; };
 		B18EBB32223F8F8800F52D3C /* CyberSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B18EBB30223F8F8800F52D3C /* CyberSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B19D9638223F913900557F5A /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9637223F913900557F5A /* LICENSE.md */; };
 		B19D963A223F914100557F5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9639223F914100557F5A /* README.md */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		34491307AF58D97E2E29C420 /* Pods-CyberSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSwift.debug.xcconfig"; path = "Target Support Files/Pods-CyberSwift/Pods-CyberSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4837076B0145B925ED946333 /* Pods-CyberSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSwift.release.xcconfig"; path = "Target Support Files/Pods-CyberSwift/Pods-CyberSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B1677C65223F9BD7005FB286 /* RestAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
 		B18EBB2D223F8F8800F52D3C /* CyberSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CyberSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18EBB30223F8F8800F52D3C /* CyberSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyberSwift.h; sourceTree = "<group>"; };
 		B18EBB31223F8F8800F52D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				B1C3F85C223F98DC005711EF /* Broadcast.swift */,
 				B1C3F85D223F98DC005711EF /* Logger.swift */,
 				B1C3F85B223F98DC005711EF /* ReachabilityManager.swift */,
+				B1677C65223F9BD7005FB286 /* RestAPIManager.swift */,
 				B1C3F85E223F98DC005711EF /* WebSocketManager.swift */,
 			);
 			path = Managers;
@@ -270,6 +273,7 @@
 				B1C3F858223F98B1005711EF /* ConstantsApp.swift in Sources */,
 				B1C3F860223F98DC005711EF /* Broadcast.swift in Sources */,
 				B1C3F868223F9907005711EF /* RequestAPI.swift in Sources */,
+				B1677C66223F9BD7005FB286 /* RestAPIManager.swift in Sources */,
 				B1C3F862223F98DC005711EF /* WebSocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
