@@ -11,6 +11,18 @@
 		B18EBB32223F8F8800F52D3C /* CyberSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B18EBB30223F8F8800F52D3C /* CyberSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B19D9638223F913900557F5A /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9637223F913900557F5A /* LICENSE.md */; };
 		B19D963A223F914100557F5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9639223F914100557F5A /* README.md */; };
+		B1C3F857223F98B1005711EF /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F854223F98B1005711EF /* Date+Extensions.swift */; };
+		B1C3F858223F98B1005711EF /* ConstantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F855223F98B1005711EF /* ConstantsApp.swift */; };
+		B1C3F859223F98B1005711EF /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F856223F98B1005711EF /* Encodable+Extensions.swift */; };
+		B1C3F85F223F98DC005711EF /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F85B223F98DC005711EF /* ReachabilityManager.swift */; };
+		B1C3F860223F98DC005711EF /* Broadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F85C223F98DC005711EF /* Broadcast.swift */; };
+		B1C3F861223F98DC005711EF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F85D223F98DC005711EF /* Logger.swift */; };
+		B1C3F862223F98DC005711EF /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F85E223F98DC005711EF /* WebSocketManager.swift */; };
+		B1C3F868223F9907005711EF /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F864223F9906005711EF /* RequestAPI.swift */; };
+		B1C3F869223F9907005711EF /* ErrorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F865223F9906005711EF /* ErrorAPI.swift */; };
+		B1C3F86A223F9907005711EF /* ResponseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F866223F9906005711EF /* ResponseAPI.swift */; };
+		B1C3F86B223F9907005711EF /* MethodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F867223F9907005711EF /* MethodAPI.swift */; };
+		B1C3F86E223F993F005711EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1C3F870223F993F005711EF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +33,19 @@
 		B18EBB31223F8F8800F52D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B19D9637223F913900557F5A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		B19D9639223F914100557F5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1C3F854223F98B1005711EF /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		B1C3F855223F98B1005711EF /* ConstantsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
+		B1C3F856223F98B1005711EF /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		B1C3F85B223F98DC005711EF /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		B1C3F85C223F98DC005711EF /* Broadcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Broadcast.swift; sourceTree = "<group>"; };
+		B1C3F85D223F98DC005711EF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B1C3F85E223F98DC005711EF /* WebSocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		B1C3F864223F9906005711EF /* RequestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
+		B1C3F865223F9906005711EF /* ErrorAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAPI.swift; sourceTree = "<group>"; };
+		B1C3F866223F9906005711EF /* ResponseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseAPI.swift; sourceTree = "<group>"; };
+		B1C3F867223F9907005711EF /* MethodAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodAPI.swift; sourceTree = "<group>"; };
+		B1C3F86F223F993F005711EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B1C3F871223F9962005711EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F6ED672114DF191DC66860EA /* Pods_CyberSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +101,9 @@
 		B18EBB2F223F8F8800F52D3C /* CyberSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B1C3F853223F98A6005711EF /* Extensions */,
+				B1C3F85A223F98C7005711EF /* Managers */,
+				B1C3F863223F98F4005711EF /* Models */,
 				B1C3F852223F935A005711EF /* Resources */,
 			);
 			path = CyberSwift;
@@ -86,8 +114,41 @@
 			children = (
 				B18EBB30223F8F8800F52D3C /* CyberSwift.h */,
 				B18EBB31223F8F8800F52D3C /* Info.plist */,
+				B1C3F870223F993F005711EF /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1C3F853223F98A6005711EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3F855223F98B1005711EF /* ConstantsApp.swift */,
+				B1C3F854223F98B1005711EF /* Date+Extensions.swift */,
+				B1C3F856223F98B1005711EF /* Encodable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1C3F85A223F98C7005711EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3F85C223F98DC005711EF /* Broadcast.swift */,
+				B1C3F85D223F98DC005711EF /* Logger.swift */,
+				B1C3F85B223F98DC005711EF /* ReachabilityManager.swift */,
+				B1C3F85E223F98DC005711EF /* WebSocketManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B1C3F863223F98F4005711EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3F865223F9906005711EF /* ErrorAPI.swift */,
+				B1C3F867223F9907005711EF /* MethodAPI.swift */,
+				B1C3F864223F9906005711EF /* RequestAPI.swift */,
+				B1C3F866223F9906005711EF /* ResponseAPI.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +195,7 @@
 				TargetAttributes = {
 					B18EBB2C223F8F8800F52D3C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -143,6 +205,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = B18EBB23223F8F8800F52D3C;
 			productRefGroup = B18EBB2E223F8F8800F52D3C /* Products */;
@@ -160,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19D963A223F914100557F5A /* README.md in Resources */,
+				B1C3F86E223F993F005711EF /* Localizable.strings in Resources */,
 				B19D9638223F913900557F5A /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,16 +260,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C3F85F223F98DC005711EF /* ReachabilityManager.swift in Sources */,
+				B1C3F869223F9907005711EF /* ErrorAPI.swift in Sources */,
+				B1C3F861223F98DC005711EF /* Logger.swift in Sources */,
+				B1C3F86A223F9907005711EF /* ResponseAPI.swift in Sources */,
+				B1C3F86B223F9907005711EF /* MethodAPI.swift in Sources */,
+				B1C3F857223F98B1005711EF /* Date+Extensions.swift in Sources */,
+				B1C3F859223F98B1005711EF /* Encodable+Extensions.swift in Sources */,
+				B1C3F858223F98B1005711EF /* ConstantsApp.swift in Sources */,
+				B1C3F860223F98DC005711EF /* Broadcast.swift in Sources */,
+				B1C3F868223F9907005711EF /* RequestAPI.swift in Sources */,
+				B1C3F862223F98DC005711EF /* WebSocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1C3F870223F993F005711EF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C3F86F223F993F005711EF /* en */,
+				B1C3F871223F9962005711EF /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B18EBB33223F8F8800F52D3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -270,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -328,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34491307AF58D97E2E29C420 /* Pods-CyberSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -345,6 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.golos.CyberSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4837076B0145B925ED946333 /* Pods-CyberSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
