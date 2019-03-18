@@ -109,7 +109,7 @@ Logger.log(message: "\nresponse Result = \(result)\n", event: .debug)
 ```
 
 Output:
-<img src='https://github.com/GolosChain/GoloSwift/blob/master/GoloSwift/Resources/Media.xcassets/screenshot-logger.imageset/screenshot-logger.png'/>
+<img src='https://github.com/Monserg/cyber-ios/blob/master/CyberSwift/Resources/Media.xcassets/screenshot-logger.imageset/screenshot-logger%403x.png'/>
 
 
 ## Running the tests
@@ -158,7 +158,7 @@ See also the list of [contributors](https://github.com/GolosChain/GoloSwift/grap
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/GolosChain/GoloSwift/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Monserg/cyber-ios/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
