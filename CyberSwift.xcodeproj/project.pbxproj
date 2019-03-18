@@ -76,10 +76,18 @@
 		B18EBB2F223F8F8800F52D3C /* CyberSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B1C3F852223F935A005711EF /* Resources */,
+			);
+			path = CyberSwift;
+			sourceTree = "<group>";
+		};
+		B1C3F852223F935A005711EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B18EBB30223F8F8800F52D3C /* CyberSwift.h */,
 				B18EBB31223F8F8800F52D3C /* Info.plist */,
 			);
-			path = CyberSwift;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,7 +335,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CyberSwift/Info.plist;
+				INFOPLIST_FILE = CyberSwift/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +361,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CyberSwift/Info.plist;
+				INFOPLIST_FILE = CyberSwift/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
