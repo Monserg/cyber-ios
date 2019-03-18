@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03329A709F0DA60180F91DBB /* Pods_CyberSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED672114DF191DC66860EA /* Pods_CyberSwift.framework */; };
 		B18EBB32223F8F8800F52D3C /* CyberSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B18EBB30223F8F8800F52D3C /* CyberSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D9638223F913900557F5A /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9637223F913900557F5A /* LICENSE.md */; };
+		B19D963A223F914100557F5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B19D9639223F914100557F5A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34491307AF58D97E2E29C420 /* Pods-CyberSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSwift.debug.xcconfig"; path = "Target Support Files/Pods-CyberSwift/Pods-CyberSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		4837076B0145B925ED946333 /* Pods-CyberSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberSwift.release.xcconfig"; path = "Target Support Files/Pods-CyberSwift/Pods-CyberSwift.release.xcconfig"; sourceTree = "<group>"; };
 		B18EBB2D223F8F8800F52D3C /* CyberSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CyberSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18EBB30223F8F8800F52D3C /* CyberSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyberSwift.h; sourceTree = "<group>"; };
 		B18EBB31223F8F8800F52D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19D9637223F913900557F5A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		B19D9639223F914100557F5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6ED672114DF191DC66860EA /* Pods_CyberSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +29,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03329A709F0DA60180F91DBB /* Pods_CyberSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09E1B2A3A59F37FF407AE3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6ED672114DF191DC66860EA /* Pods_CyberSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75F3EB65C5A22587C3A36A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34491307AF58D97E2E29C420 /* Pods-CyberSwift.debug.xcconfig */,
+				4837076B0145B925ED946333 /* Pods-CyberSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B18EBB23223F8F8800F52D3C = {
 			isa = PBXGroup;
 			children = (
+				B19D9637223F913900557F5A /* LICENSE.md */,
+				B19D9639223F914100557F5A /* README.md */,
 				B18EBB2F223F8F8800F52D3C /* CyberSwift */,
 				B18EBB2E223F8F8800F52D3C /* Products */,
+				75F3EB65C5A22587C3A36A98 /* Pods */,
+				09E1B2A3A59F37FF407AE3B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +100,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B18EBB35223F8F8800F52D3C /* Build configuration list for PBXNativeTarget "CyberSwift" */;
 			buildPhases = (
+				649564B65A8EBB551668D241 /* [CP] Check Pods Manifest.lock */,
 				B18EBB28223F8F8800F52D3C /* Headers */,
 				B18EBB29223F8F8800F52D3C /* Sources */,
 				B18EBB2A223F8F8800F52D3C /* Frameworks */,
@@ -120,10 +151,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19D963A223F914100557F5A /* README.md in Resources */,
+				B19D9638223F913900557F5A /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		649564B65A8EBB551668D241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyberSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B18EBB29223F8F8800F52D3C /* Sources */ = {
@@ -260,6 +318,7 @@
 		};
 		B18EBB36223F8F8800F52D3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34491307AF58D97E2E29C420 /* Pods-CyberSwift.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -285,6 +344,7 @@
 		};
 		B18EBB37223F8F8800F52D3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4837076B0145B925ED946333 /* Pods-CyberSwift.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
