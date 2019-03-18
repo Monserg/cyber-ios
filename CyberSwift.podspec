@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.license            =   { :type => 'MIT', :file => 'LICENSE.md' }
     spec.author             =   "msm72"
     spec.source_files       =   "CyberSwift", "CyberSwift/**/*.{h,m,swift}"
-    spec.exclude_files      =   "CyberSwift/**/Resources/*.plist"
+    spec.exclude_files      =   "CyberSwift/CyberSwift/Resources/*.plist"
 
     spec.version            =   "1.0.0"
     spec.source             =   { :git => "https://github.com/Monserg/cyber-ios.git", :tag => "1.0.0" }
