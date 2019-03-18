@@ -38,14 +38,14 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'GoloSwift', '~> 1.1'
+    pod 'CyberSwift', '~> 1.0'
 end
 ```
 
 Then, run the following command in `Terminal`:
 
 ```
-$ pod update 'GoloSwift'
+$ pod update 'CyberSwift'
 ```
 
 ## Quick start
